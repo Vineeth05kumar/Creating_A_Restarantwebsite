@@ -12,10 +12,10 @@ const MealItemForm = (props) => {
           min: "1",
           max: "5",
           step: "1",
-          defaultVlue: "1",
+          defaultValue: "1",
         }}
       />
-      <button type="click">+Add</button>
+      <button type="click">+ Add</button>
     </form>
   );
 };
