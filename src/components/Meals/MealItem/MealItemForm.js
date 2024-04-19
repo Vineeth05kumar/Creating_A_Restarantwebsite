@@ -1,7 +1,11 @@
-import classes from './MealItem.module.css';
+// import classes from './MealItem.module.css';
 
 const MealItemForm = props => {
-    return
+    return(<div>
+        <label>Amount</label>
+        <input type='number' />
+        <button type="click">Add</button>
+    </div>)
 }
 
 export default MealItemForm;
